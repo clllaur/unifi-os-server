@@ -1,4 +1,7 @@
 name: Build and push uosserver image
+permissions: 
+  contents: read
+  packages: write
 
 on:
   workflow_call:
