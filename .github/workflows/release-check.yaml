@@ -1,4 +1,6 @@
 name: Check for new releases
+permissions: 
+  contents: write
 
 on:
   workflow_dispatch:
