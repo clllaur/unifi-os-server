@@ -1,5 +1,7 @@
 name: Build and push unifi-os-server image
-
+permissions: 
+  contents: read
+  packages: write
 on:
   release:
     types: [published]
