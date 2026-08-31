@@ -2,6 +2,7 @@ name: Check for new releases
 permissions: 
   contents: write
   packages: write
+  pull-requests: write
 
 on:
   workflow_dispatch:
