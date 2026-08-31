@@ -1,4 +1,4 @@
-FROM ghcr.io/clllaur/uosserver:ab51f5e215ae-multiarch
+FROM ghcr.io/clllaur/uosserver:d7bbd4816078-multiarch
 
 LABEL org.opencontainers.image.source="https://github.com/claur/unifi-os-server"
 
