@@ -1,9 +1,9 @@
-FROM ghcr.io/clllaur/uosserver:d7bbd4816078-multiarch
+FROM ghcr.io/clllaur/uosserver:c9603dec9010-multiarch
 
 LABEL org.opencontainers.image.source="https://github.com/claur/unifi-os-server"
 
 ENV container="docker"
-ENV APP_VERSION="5.1.37"
+ENV APP_VERSION="5.1.42"
 ENV APP_MODEL="UOSSERVER"
 ENV PRODUCT_NAME="UniFi OS Server"
 
